@@ -20,6 +20,7 @@ namespace Excercise_1
             
             Type = "Composed";
         }
+
         //add the function to the list 
         public ComposedMission Add(functionWhatToDo func)
         {
