@@ -10,13 +10,13 @@ namespace Excercise_1
     {
         public event EventHandler<double> OnCalculate;
         private functionWhatToDo nameFunc;
+        private string name;
 
         //CTOR of SingleMission - get function and name of the mission
         public SingleMission(functionWhatToDo func, String mission)
         {
-            Name = mission;
+            name = mission;
             nameFunc = func;
-            
             Type = "Single ";
         }
         //Calculate Method- with the value , he get
@@ -29,7 +29,11 @@ namespace Excercise_1
             }
             return answer;
         }
-        public String Name { get; }
+        public string Name
+        {
+            get { return name; }
+            private set { name = value; }
+        }
         public String Type { get; }
     }
 }

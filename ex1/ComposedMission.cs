@@ -11,16 +11,15 @@ namespace Excercise_1
         public event EventHandler<double> OnCalculate;
 
         private List<functionWhatToDo> allTheFunction;
+        private string name;
 
         //CTOR of the ComposedMission
         public ComposedMission(String nameOfFunction)
         {
-            Name = nameOfFunction;
+            name = nameOfFunction;
             allTheFunction = new List<functionWhatToDo>();
-            
             Type = "Composed";
         }
-
         //add the function to the list 
         public ComposedMission Add(functionWhatToDo func)
         {
@@ -42,7 +41,11 @@ namespace Excercise_1
             }
             return answer;
         }
-        public String Name { get; }
+        public string Name
+        {
+            get { return name; }
+            private set { name = value; }
+        }
         public String Type { get; }
     }
 }
