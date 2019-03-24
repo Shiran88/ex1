@@ -1,1 +1,23 @@
-hey shiri
+commit f744ca3cfbded805a5da3c0abbbf210f53243522
+Author: Shiran Golbar <shiran.golbar@live.biu.ac.il>
+Date:   Sun Mar 24 16:23:00 2019 +0200
+
+    commit
+
+commit fc57144f5e49753ffbfe25f9b78bd238507b6810
+Author: Shiran Golbar <shiran.golbar@live.biu.ac.il>
+Date:   Sun Mar 24 16:06:18 2019 +0200
+
+    first commit
+
+commit c98e7ec20d16e5bd576f2cf5361932d98a9d05b8
+Author: Shiran Golbar <shiran.golbar@live.biu.ac.il>
+Date:   Sun Mar 24 16:00:56 2019 +0200
+
+    initial commit
+
+commit 0f3135aca2cfc14cddb7c0e940fcd5ec826fb022
+Author: Shiran Golbar <shiran.golbar@live.biu.ac.il>
+Date:   Sun Mar 24 15:57:25 2019 +0200
+
+    initial commit
